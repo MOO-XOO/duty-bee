@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/MOO-XOO/duty-bee/issues"
   },
-  "homepage": "https://github.com/MOO-XOO/duty-bee#readme"
+  "homepage": "https://github.com/MOO-XOO/duty-bee#readme",
+  "engines": {
+    "node": "10.x"
+  }
 }
