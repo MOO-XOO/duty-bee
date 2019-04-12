@@ -7,7 +7,7 @@ http.createServer((request, response) => {
 
 const MongoClient = require('mongodb').MongoClient;
 const assert      = require('assert');
-const url         = 'mongodb://localhost:27017';
+const url         = process.env.MONGODB_URI
 
 const dbName = 'duty-bee';
 const client = new MongoClient(url, { useNewUrlParser: true });
