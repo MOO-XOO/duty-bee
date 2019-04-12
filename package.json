@@ -25,5 +25,8 @@
   "homepage": "https://github.com/MOO-XOO/duty-bee#readme",
   "engines": {
     "node": "11.x"
+  },
+  "dependencies": {
+    "mongodb": "^3.2.3"
   }
 }
