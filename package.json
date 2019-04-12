@@ -27,6 +27,7 @@
     "node": "11.x"
   },
   "dependencies": {
-    "mongodb": "^3.2.3"
+    "mongodb": "^3.2.3",
+    "node-schedule": "^1.2.0"
   }
 }

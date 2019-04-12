@@ -1,9 +1,14 @@
 const http = require('http');
+const scheduler = require('node-schedule');
 
 http.createServer((request, response) => {
   response.writeHead(200, {'Content-Type': 'text/plain'});
   response.end('Hello World\n');
 }).listen(process.env.PORT || 8080, () => console.log('Server started'));
+
+scheduler.scheduleJob('5 * * * * *', (timestamp) => {
+  console.log(`ping at ${timestamp}`);
+});
 
 const MongoClient = require('mongodb').MongoClient;
 const assert      = require('assert');
