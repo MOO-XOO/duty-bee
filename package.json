@@ -4,6 +4,7 @@
   "description": "Just duty-bee",
   "main": "bee.js",
   "scripts": {
+    "start": "node bee.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
